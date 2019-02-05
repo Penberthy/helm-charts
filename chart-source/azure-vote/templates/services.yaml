@@ -4,6 +4,7 @@ metadata:
   name: vote-back-{{.Release.Name}}
   labels:
     name: vote-back-{{.Release.Name}}
+    aadpodidbinding: "KVreaderNode_pods"
 spec:
   ports:
   - port: 6379
